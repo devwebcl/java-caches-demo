@@ -8,7 +8,7 @@
         <version>0.1</version>
     </parent>
 
-    <artifactId>part03.ehcache</artifactId>
+    <artifactId>part03.ehcache.v2</artifactId>
     <packaging>war</packaging>
 
     <name>Ehcache Peer-to-Peer</name>

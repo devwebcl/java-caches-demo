@@ -5,8 +5,7 @@
          updateCheck="true" monitoring="autodetect"
          dynamicConfig="true">
     <cacheManagerPeerProviderFactory class="net.sf.ehcache.distribution.RMICacheManagerPeerProviderFactory" properties="peerDiscovery=automatic, multicastGroupAddress=230.0.0.1, multicastGroupPort=4446, timeToLive=32"/>
-   <!-- hostName=localhost, -->
-    <cacheManagerPeerListenerFactory class="net.sf.ehcache.distribution.RMICacheManagerPeerListenerFactory" properties=" port=40001, socketTimeoutMillis=2000"/>
+    <cacheManagerPeerListenerFactory class="net.sf.ehcache.distribution.RMICacheManagerPeerListenerFactory" properties="hostName=localhost, port=40002, socketTimeoutMillis=2000"/>
     <cache name="events"
            maxEntriesLocalHeap="1000"
            eternal="true"

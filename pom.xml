@@ -13,6 +13,7 @@
         <module>part02.hazelcast</module>
         <module>part02.infinispan</module>
         <module>part03.ehcache</module>
+        <module>part03.ehcache.v2</module>
         <module>part03.hazelcast</module>
         <module>part03.infinispan</module>
         <module>part04.ehcache</module>
@@ -64,6 +65,9 @@
     </dependencies>
 
     <build>
+    
+    <finalName>${project.artifactId}</finalName>
+        
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
